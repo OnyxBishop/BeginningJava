@@ -10,15 +10,15 @@ public class Calculator {
         int six = 6;
 
         int[] results = new int[]{
-         six / two, // sixDivideTwo
-         five - two, // fiveMinusTwo
-         four * two, // fourMultiplyTwo
+                six / two, // sixDivideTwo
+                five - two, // fiveMinusTwo
+                four * two, // fourMultiplyTwo
         };
 
         int onePlusTwo = one + two;
         System.out.println(onePlusTwo);
 
-        for(Integer result : results ){
+        for (Integer result : results) {
             System.out.println(result);
         }
     }

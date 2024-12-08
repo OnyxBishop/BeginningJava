@@ -7,10 +7,10 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-        float rubToEuro = Converter.convert(140, 100);
-        float rubToDollar = Converter.convert(140, 90);
-
-        System.out.println("140 rubles are " + rubToEuro + " euro.");
-        System.out.println("140 rubles are " + rubToDollar + " dollar.");
+        float in = 140f;
+        float expected = 1.4f;
+        float out = Converter.convert(in, 100);
+        boolean passed = expected == out;
+        System.out.println("140 rubles are 1.4. Test result : " + passed);
     }
 }

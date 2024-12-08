@@ -12,7 +12,7 @@ public class MathCalculator {
         return subtract(first, second) + divide(first, second);
     }
 
-    public static double doAllOperations(double first, double second){
+    public static double doAllOperations(double first, double second) {
         return sumAndMultiply(first, second) + subtractAndDivide(first, second);
     }
 
